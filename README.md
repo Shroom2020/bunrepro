@@ -14,4 +14,4 @@ bun run start-node # Start using Node.js
 When using Bun, Gecko-based browsers will not load the provided font and Chromium-based browsers will not load the images. When using Node, everything should load as normal.  
 Excuse the code quality. This was part of a quick personal project before.
 
-The problematic paged can be accessed at `localhost:80` when the server is running.
+The problematic page can be accessed at `localhost:80` when the server is running.
