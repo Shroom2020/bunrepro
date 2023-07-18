@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Pixeboy";
+    src: url("/fonts/pixeboy.woff2");
+}
+:root {
+    --red: #bb1619;
+    --green: #0a6317;
+    --blue: #35a8d5;
+    --orange: #c95b00;
+    --purple: #440a4d;
+    --base: #000000;
+    --euclid: #b68fff;
+}
+
+/* Global */
+body {
+    font-family: "Pixeboy", monospace;
+    font-size: 2rem;
+    line-height: 0.7;
+}
+
+/* Cards */
+.pixelart {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
